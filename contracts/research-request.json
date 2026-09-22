@@ -1,0 +1,39 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "workIds": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 500,
+      "minItems": 1,
+      "title": "Workids",
+      "type": "array"
+    },
+    "group": {
+      "default": "包装钩子",
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Group",
+      "type": "string"
+    },
+    "reviewedOnly": {
+      "default": true,
+      "title": "Reviewedonly",
+      "type": "boolean"
+    },
+    "question": {
+      "maxLength": 2000,
+      "minLength": 1,
+      "title": "Question",
+      "type": "string"
+    }
+  },
+  "required": [
+    "workIds",
+    "question"
+  ],
+  "title": "ResearchRunRequest",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

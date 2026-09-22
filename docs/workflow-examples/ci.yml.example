@@ -1,0 +1,57 @@
+# Inactive example. See README.md in this directory before enabling.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install --disable-pip-version-check -r backend/requirements.txt
+
+      - name: Check reviewed public file allowlist and privacy patterns
+        run: python tools/check_release.py --tracked
+
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Verify generated contracts
+        shell: bash
+        run: |
+          npm run contracts
+          git diff --exit-code -- contracts
+
+      - name: Run backend, domain, and benchmark utility tests
+        run: npm test
+
+      - name: Rebuild synthetic public snapshot
+        run: npm run snapshot
+
+      - name: Build static application
+        run: npm run build
+        env:
+          VITE_API_MODE: readonly

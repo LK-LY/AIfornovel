@@ -1,0 +1,36 @@
+{
+  "name": "herlens-strategy-workbench",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:local": "node tools/dev.mjs",
+    "snapshot": "node tools/python.mjs tools/build_snapshot.py",
+    "test:backend": "node tools/python.mjs -m pytest backend/tests -q",
+    "test:ui": "node --experimental-strip-types --test src/strategy/domain.test.ts",
+    "test:benchmark": "node tools/python.mjs -m pytest tests -q",
+    "test:renderer": "node --test tools/novel_report.test.mjs",
+    "test": "npm run test:backend && npm run test:ui && npm run test:benchmark && npm run test:renderer",
+    "benchmark": "node tools/python.mjs tools/benchmark_text.py",
+    "analyze:novel": "node tools/python.mjs tools/analyze_novel.py",
+    "report:novel": "node tools/python.mjs tools/build_novel_report.py",
+    "check:release": "node tools/python.mjs tools/check_release.py",
+    "contracts": "node tools/python.mjs tools/export_contracts.py",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.1.0",
+    "typescript": "5.7.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "@types/node": "22.10.5"
+  }
+}

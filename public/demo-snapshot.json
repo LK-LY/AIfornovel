@@ -1,0 +1,2820 @@
+{
+  "schemaVersion": "0.2",
+  "mode": "readonly",
+  "source": "fixtures/demo.json",
+  "generatedAt": "2026-09-22T03:01:21.294526+00:00",
+  "works": [
+    {
+      "annotations": [
+        {
+          "evidenceIds": [
+            "ev-024-02",
+            "ev-024-03"
+          ],
+          "group": "题材语境",
+          "id": "an-024-01",
+          "label": "现代",
+          "rationale": "民政局、房贷、临街小铺等当代生活设施明确出现。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "现代都市"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-02",
+            "ev-024-04"
+          ],
+          "group": "叙事驱动力",
+          "id": "an-024-02",
+          "label": "成长",
+          "rationale": "故事动力从关系结束转向女主自建花店与生活秩序。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "脱离关系后重建生活"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-03"
+          ],
+          "group": "核心关系",
+          "id": "an-024-03",
+          "label": "夫妻",
+          "rationale": "开篇以签字离婚为起点，关系不是复合主线。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "前夫妻"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-02",
+            "ev-024-04"
+          ],
+          "group": "主角目标",
+          "id": "an-024-04",
+          "label": "目标",
+          "rationale": "花店是一个可观察的生活重建动作，而非抽象的“变强”。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "重新掌握生活节奏"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-05"
+          ],
+          "group": "核心冲突",
+          "id": "an-024-05",
+          "label": "冲突",
+          "rationale": "前夫以事务口吻处理房贷与孩子，触发女主脱离。",
+          "reviewStatus": "需复核",
+          "revision": 1,
+          "value": "关系中的长期忽视"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-01",
+            "ev-024-02"
+          ],
+          "group": "情绪承诺",
+          "id": "an-024-06",
+          "label": "承诺",
+          "rationale": "标题和导语共同承诺一种离开之后的轻盈，而非报复性胜利。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "释然 / 自我回收"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-01",
+            "ev-024-02"
+          ],
+          "group": "包装钩子",
+          "id": "an-024-07",
+          "label": "钩子",
+          "rationale": "标题先给出“离婚后”，导语紧接着给出花店这一新生活结果。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "结果前置"
+        },
+        {
+          "evidenceIds": [
+            "ev-024-01",
+            "ev-024-03",
+            "ev-024-04"
+          ],
+          "group": "承诺兑现",
+          "id": "an-024-08",
+          "label": "兑现",
+          "rationale": "开篇建立脱离关系，结尾以持续经营花店完成自我回收；未出现复合。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "fulfilled"
+        }
+      ],
+      "author": "林栖",
+      "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+      "endingConfirmed": true,
+      "evidence": [
+        {
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "endChar": 12,
+          "field": "标题",
+          "id": "ev-024-01",
+          "note": "标题中的自我回收与脱离关系承诺",
+          "paragraphId": "title",
+          "quote": "把春天留给自己",
+          "reviewStatus": "已审核",
+          "startChar": 5,
+          "versionId": "v3",
+          "workId": "HL-024"
+        },
+        {
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "endChar": 34,
+          "field": "导语",
+          "id": "ev-024-02",
+          "note": "明确给出关系断裂后的新目标",
+          "paragraphId": "intro",
+          "quote": "签完字的那天，我在旧城开了一间花店。",
+          "reviewStatus": "已审核",
+          "startChar": 16,
+          "versionId": "v3",
+          "workId": "HL-024"
+        },
+        {
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "endChar": 32,
+          "field": "开篇",
+          "id": "ev-024-03",
+          "note": "开篇直接落在离婚后的情绪转折",
+          "paragraphId": "p01",
+          "quote": "民政局的玻璃门在身后合上，我才发现，自己竟然没有想象中那么难过。",
+          "reviewStatus": "已审核",
+          "startChar": 0,
+          "versionId": "v3",
+          "workId": "HL-024"
+        },
+        {
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "endChar": 34,
+          "field": "结尾",
+          "id": "ev-024-04",
+          "note": "结尾将“春天”回收到自我成长，而非复合",
+          "paragraphId": "p04",
+          "quote": "春天没有留在谁的道歉里，它留在每天开门时，第一束被我亲手修好的花里。",
+          "reviewStatus": "已审核",
+          "startChar": 0,
+          "versionId": "v3",
+          "workId": "HL-024"
+        },
+        {
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "endChar": 36,
+          "field": "开篇",
+          "id": "ev-024-05",
+          "note": "支持关系中的情感失衡，但不是独立冲突证据",
+          "paragraphId": "p02",
+          "quote": "像在安排一场无关紧要的会议。",
+          "reviewStatus": "需复核",
+          "startChar": 22,
+          "versionId": "v3",
+          "workId": "HL-024"
+        }
+      ],
+      "id": "HL-024",
+      "intro": "结婚七年，他把我当成免费的后勤。签完字的那天，我在旧城开了一间花店。",
+      "isSynthetic": true,
+      "localConsent": true,
+      "metric": {
+        "channel": "站内推荐",
+        "clicks": 3720,
+        "countingUnit": "次",
+        "ctrReported": 20,
+        "definition": "impressions_clicks_v1",
+        "id": "metric-024",
+        "impressions": 18600,
+        "status": "可比",
+        "unit": "次",
+        "versionId": "v3",
+        "window": "发布后 7 日",
+        "windowSpec": "post_publish_d7"
+      },
+      "modelConsent": false,
+      "observations": [
+        {
+          "channel": "站内推荐",
+          "clicks": 3720,
+          "countingUnit": "次",
+          "ctrReported": 20,
+          "definition": "impressions_clicks_v1",
+          "id": "metric-024",
+          "impressions": 18600,
+          "observationType": "interval",
+          "status": "可比",
+          "unit": "次",
+          "versionId": "v3",
+          "window": "发布后 7 日",
+          "windowEnd": "2026-09-08T00:00:00Z",
+          "windowSpec": "post_publish_d7",
+          "windowStart": "2026-09-01T00:00:00Z"
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "p01",
+          "label": "开篇 · 01",
+          "text": "民政局的玻璃门在身后合上，我才发现，自己竟然没有想象中那么难过。"
+        },
+        {
+          "id": "p02",
+          "label": "开篇 · 02",
+          "text": "他把车钥匙丢给我，说房贷和孩子的事下周再谈，像在安排一场无关紧要的会议。"
+        },
+        {
+          "id": "p03",
+          "label": "中段 · 12",
+          "text": "我把那间堆满纸箱的临街小铺刷成奶油白，门口挂上了“春迟花房”的木牌。"
+        },
+        {
+          "id": "p04",
+          "label": "结尾 · 28",
+          "text": "春天没有留在谁的道歉里，它留在每天开门时，第一束被我亲手修好的花里。"
+        }
+      ],
+      "reviewStatus": "已审核",
+      "revision": 1,
+      "rightsStatus": "演示素材，可公开",
+      "scope": "full_text",
+      "sourceType": "原创微型故事 · 预计算夹具",
+      "title": "离婚后，我把春天留给自己",
+      "updatedAt": "2026-09-18 14:32",
+      "versionId": "v3"
+    },
+    {
+      "annotations": [
+        {
+          "evidenceIds": [
+            "ev-019-02"
+          ],
+          "group": "题材语境",
+          "id": "an-019-01",
+          "label": "现代",
+          "rationale": "婚礼策划、宾客名单等现代职业场景。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "现代都市"
+        },
+        {
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-03"
+          ],
+          "group": "叙事驱动力",
+          "id": "an-019-02",
+          "label": "成长",
+          "rationale": "前夫求复合是触发器，女主的行动是继续工作并离开。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "脱离关系"
+        },
+        {
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-03"
+          ],
+          "group": "情绪承诺",
+          "id": "an-019-03",
+          "label": "承诺",
+          "rationale": "标题使用“求复合”制造回望，但结尾落在女主拒绝回头。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "复仇释放"
+        },
+        {
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-019-03"
+          ],
+          "group": "承诺兑现",
+          "id": "an-019-04",
+          "label": "兑现",
+          "rationale": "开篇即出现求复合，结尾明确离开；“复合成功”不属于文本承诺。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "fulfilled"
+        },
+        {
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02"
+          ],
+          "group": "包装钩子",
+          "id": "an-019-05",
+          "label": "钩子",
+          "rationale": "标题先给出“求复合”这一结果状态，再把冲突放到婚礼现场。",
+          "reviewStatus": "已审核",
+          "revision": 1,
+          "value": "结果前置"
+        },
+        {
+          "evidenceIds": [],
+          "group": "核心关系",
+          "id": "an-bbd88cb4b6da4fb4",
+          "label": "核心关系",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "主角目标",
+          "id": "an-a7d8725b94275510",
+          "label": "主角目标",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "核心冲突",
+          "id": "an-fc5ee96b01dadc03",
+          "label": "核心冲突",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        }
+      ],
+      "author": "林栖",
+      "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+      "endingConfirmed": true,
+      "evidence": [
+        {
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "endChar": 5,
+          "field": "标题",
+          "id": "ev-019-01",
+          "paragraphId": "title",
+          "quote": "前夫求复合",
+          "reviewStatus": "已审核",
+          "startChar": 0,
+          "versionId": "v2",
+          "workId": "HL-019"
+        },
+        {
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "endChar": 25,
+          "field": "开篇",
+          "id": "ev-019-02",
+          "paragraphId": "p01",
+          "quote": "他在婚礼现场叫住我时，新娘正挽着别人的手走向花门。",
+          "reviewStatus": "已审核",
+          "startChar": 0,
+          "versionId": "v2",
+          "workId": "HL-019"
+        },
+        {
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "endChar": 24,
+          "field": "结尾",
+          "id": "ev-019-03",
+          "paragraphId": "p03",
+          "quote": "转身走进没有他的夜色里。",
+          "reviewStatus": "已审核",
+          "startChar": 12,
+          "versionId": "v2",
+          "workId": "HL-019"
+        }
+      ],
+      "id": "HL-019",
+      "intro": "他后悔得太晚，而我已经学会把别人的幸福布置得井井有条。",
+      "isSynthetic": true,
+      "localConsent": true,
+      "metric": {
+        "channel": "站内推荐",
+        "clicks": 3960,
+        "countingUnit": "次",
+        "ctrReported": 18,
+        "definition": "impressions_clicks_v1",
+        "id": "metric-019",
+        "impressions": 22000,
+        "status": "可比",
+        "unit": "次",
+        "versionId": "v2",
+        "window": "发布后 7 日",
+        "windowSpec": "post_publish_d7"
+      },
+      "modelConsent": false,
+      "observations": [
+        {
+          "channel": "站内推荐",
+          "clicks": 3960,
+          "countingUnit": "次",
+          "ctrReported": 18,
+          "definition": "impressions_clicks_v1",
+          "id": "metric-019",
+          "impressions": 22000,
+          "observationType": "interval",
+          "status": "可比",
+          "unit": "次",
+          "versionId": "v2",
+          "window": "发布后 7 日",
+          "windowEnd": "2026-09-08T00:00:00Z",
+          "windowSpec": "post_publish_d7",
+          "windowStart": "2026-09-01T00:00:00Z"
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "p01",
+          "label": "开篇 · 01",
+          "text": "他在婚礼现场叫住我时，新娘正挽着别人的手走向花门。"
+        },
+        {
+          "id": "p02",
+          "label": "开篇 · 02",
+          "text": "“晚晚，我们重新开始，好不好？”我低头核对宾客名单，没有抬头。"
+        },
+        {
+          "id": "p03",
+          "label": "结尾 · 24",
+          "text": "我把最后一盏灯交给新人，转身走进没有他的夜色里。"
+        }
+      ],
+      "reviewStatus": "已审核",
+      "revision": 1,
+      "rightsStatus": "演示素材，可公开",
+      "scope": "full_text",
+      "sourceType": "原创微型故事 · 预计算夹具",
+      "title": "前夫求复合时，我在给别人办婚礼",
+      "updatedAt": "2026-09-17 09:18",
+      "versionId": "v2"
+    },
+    {
+      "annotations": [
+        {
+          "evidenceIds": [
+            "ev-011-01",
+            "ev-011-02"
+          ],
+          "group": "题材语境",
+          "id": "an-011-01",
+          "label": "题材",
+          "rationale": "旧巷、店铺与旧物修复构成日常现实语境。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "现代生活"
+        },
+        {
+          "evidenceIds": [
+            "ev-011-01"
+          ],
+          "group": "叙事驱动力",
+          "id": "an-011-02",
+          "label": "驱动力",
+          "rationale": "主角围绕修复店建立新的工作与关系网络。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "事业"
+        },
+        {
+          "evidenceIds": [],
+          "group": "承诺兑现",
+          "id": "an-011-03",
+          "label": "兑现",
+          "rationale": "仅提供开篇，结尾未提供，暂不判断兑现。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "核心关系",
+          "id": "an-38e409701770c381",
+          "label": "核心关系",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "主角目标",
+          "id": "an-6802f104eda00cba",
+          "label": "主角目标",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "核心冲突",
+          "id": "an-643c8518c748800d",
+          "label": "核心冲突",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "情绪承诺",
+          "id": "an-a11bfc19b0161895",
+          "label": "情绪承诺",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "包装钩子",
+          "id": "an-99b1826ce201ba10",
+          "label": "包装钩子",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        }
+      ],
+      "author": "林栖",
+      "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+      "endingConfirmed": false,
+      "evidence": [
+        {
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "endChar": 11,
+          "field": "标题",
+          "id": "ev-011-01",
+          "paragraphId": "title",
+          "quote": "开了一家修复店",
+          "reviewStatus": "待审核",
+          "startChar": 4,
+          "versionId": "v1",
+          "workId": "HL-011"
+        },
+        {
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "endChar": 29,
+          "field": "开篇",
+          "id": "ev-011-02",
+          "paragraphId": "p01",
+          "quote": "外婆留下的钥匙只有一把，刚好能打开旧巷尽头那间落灰的铺子。",
+          "reviewStatus": "待审核",
+          "startChar": 0,
+          "versionId": "v1",
+          "workId": "HL-011"
+        }
+      ],
+      "id": "HL-011",
+      "intro": "修复旧物，也修复那些被时间遗落的人。",
+      "isSynthetic": true,
+      "localConsent": true,
+      "modelConsent": false,
+      "observations": [],
+      "paragraphs": [
+        {
+          "id": "p01",
+          "label": "开篇 · 01",
+          "text": "外婆留下的钥匙只有一把，刚好能打开旧巷尽头那间落灰的铺子。"
+        },
+        {
+          "id": "p02",
+          "label": "开篇 · 02",
+          "text": "我把一只停摆的钟放在窗边，等第一个愿意把故事交给我的人。"
+        }
+      ],
+      "reviewStatus": "待审核",
+      "revision": 1,
+      "rightsStatus": "演示素材，可公开",
+      "scope": "opening_only",
+      "sourceType": "原创微型故事 · 预计算夹具",
+      "title": "我在旧巷开了一家修复店",
+      "updatedAt": "2026-09-12 18:44",
+      "versionId": "v1"
+    },
+    {
+      "annotations": [
+        {
+          "evidenceIds": [
+            "ev-006-01"
+          ],
+          "group": "核心关系",
+          "id": "an-006-01",
+          "label": "关系",
+          "rationale": "标题明确关系为姐妹，但正文尚未导入。",
+          "reviewStatus": "需复核",
+          "revision": 1,
+          "value": "姐妹"
+        },
+        {
+          "evidenceIds": [],
+          "group": "承诺兑现",
+          "id": "an-006-02",
+          "label": "兑现",
+          "rationale": "只有标题与导语，不能判断开篇或结尾兑现。",
+          "reviewStatus": "需复核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "题材语境",
+          "id": "an-156ed91ba4c1c53d",
+          "label": "题材语境",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "叙事驱动力",
+          "id": "an-7d5774d8b9e698c3",
+          "label": "叙事驱动力",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "主角目标",
+          "id": "an-88399d05697f9217",
+          "label": "主角目标",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "核心冲突",
+          "id": "an-ff2d258585e90aa8",
+          "label": "核心冲突",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "情绪承诺",
+          "id": "an-17b0ae723f6ec4d4",
+          "label": "情绪承诺",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        },
+        {
+          "evidenceIds": [],
+          "group": "包装钩子",
+          "id": "an-e900cddd692b76c4",
+          "label": "包装钩子",
+          "rationale": "尚未完成结构化抽取或人工标注。",
+          "reviewStatus": "待审核",
+          "revision": 1,
+          "value": "unknown"
+        }
+      ],
+      "author": "林栖",
+      "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+      "endingConfirmed": false,
+      "evidence": [
+        {
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "endChar": 9,
+          "field": "标题",
+          "id": "ev-006-01",
+          "paragraphId": "title",
+          "quote": "姐姐把遗产留给了我",
+          "reviewStatus": "需复核",
+          "startChar": 0,
+          "versionId": "v1",
+          "workId": "HL-006"
+        }
+      ],
+      "id": "HL-006",
+      "intro": "她离开以后，我才知道那份遗嘱写的是我们没有说完的话。",
+      "isSynthetic": true,
+      "localConsent": true,
+      "modelConsent": false,
+      "observations": [],
+      "paragraphs": [],
+      "reviewStatus": "需复核",
+      "revision": 1,
+      "rightsStatus": "演示素材，可公开",
+      "scope": "metadata_only",
+      "sourceType": "原创微型故事 · 预计算夹具",
+      "title": "姐姐把遗产留给了我",
+      "updatedAt": "2026-09-03 11:06",
+      "versionId": "v1"
+    }
+  ],
+  "comparison": {
+    "queryId": "qry-bba96bde1fa39a1924ae",
+    "revision": 1,
+    "sampleCount": 4,
+    "missingCount": 2,
+    "sourceSnapshot": [
+      {
+        "workId": "HL-024",
+        "versionId": "v3",
+        "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+        "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+        "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+        "revision": 1,
+        "isSynthetic": true,
+        "scope": "full_text"
+      },
+      {
+        "workId": "HL-019",
+        "versionId": "v2",
+        "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+        "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+        "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+        "revision": 1,
+        "isSynthetic": true,
+        "scope": "full_text"
+      },
+      {
+        "workId": "HL-011",
+        "versionId": "v1",
+        "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+        "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+        "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "revision": 1,
+        "isSynthetic": true,
+        "scope": "opening_only"
+      },
+      {
+        "workId": "HL-006",
+        "versionId": "v1",
+        "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+        "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+        "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "revision": 1,
+        "isSynthetic": true,
+        "scope": "metadata_only"
+      }
+    ],
+    "group": "包装钩子",
+    "reviewedOnly": true,
+    "frequencies": [
+      {
+        "value": "结果前置",
+        "count": 2,
+        "workIds": [
+          "HL-019",
+          "HL-024"
+        ],
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-02",
+          "ev-024-01",
+          "ev-024-02"
+        ]
+      }
+    ],
+    "metricGroups": [
+      {
+        "key": "metric-1f36c6894afe3154",
+        "isSynthetic": true,
+        "definition": "impressions_clicks_v1",
+        "channel": "站内推荐",
+        "windowSpec": "post_publish_d7",
+        "countingUnit": "次",
+        "workIds": [
+          "HL-019",
+          "HL-024"
+        ],
+        "sampleCount": 2,
+        "observationCount": 2,
+        "observations": [
+          {
+            "channel": "站内推荐",
+            "clicks": 3720,
+            "countingUnit": "次",
+            "ctrReported": 20,
+            "definition": "impressions_clicks_v1",
+            "id": "metric-024",
+            "impressions": 18600,
+            "observationType": "interval",
+            "status": "可比",
+            "unit": "次",
+            "versionId": "v3",
+            "window": "发布后 7 日",
+            "windowEnd": "2026-09-08T00:00:00Z",
+            "windowSpec": "post_publish_d7",
+            "windowStart": "2026-09-01T00:00:00Z",
+            "workId": "HL-024",
+            "isSynthetic": true
+          },
+          {
+            "channel": "站内推荐",
+            "clicks": 3960,
+            "countingUnit": "次",
+            "ctrReported": 18,
+            "definition": "impressions_clicks_v1",
+            "id": "metric-019",
+            "impressions": 22000,
+            "observationType": "interval",
+            "status": "可比",
+            "unit": "次",
+            "versionId": "v2",
+            "window": "发布后 7 日",
+            "windowEnd": "2026-09-08T00:00:00Z",
+            "windowSpec": "post_publish_d7",
+            "windowStart": "2026-09-01T00:00:00Z",
+            "workId": "HL-019",
+            "isSynthetic": true
+          }
+        ],
+        "impressions": 40600,
+        "clicks": 7680,
+        "ctr": 0.1891625615763547
+      }
+    ],
+    "excluded": [
+      {
+        "workId": "HL-011",
+        "annotationId": "an-99b1826ce201ba10",
+        "reason": "标签未经人工审核"
+      },
+      {
+        "workId": "HL-006",
+        "annotationId": "an-e900cddd692b76c4",
+        "reason": "标签未经人工审核"
+      },
+      {
+        "workId": "HL-011",
+        "reason": "无指标观测；不以 0 填补缺失值"
+      },
+      {
+        "workId": "HL-006",
+        "reason": "无指标观测；不以 0 填补缺失值"
+      }
+    ],
+    "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+    "params": {
+      "group": "包装钩子",
+      "reviewed_only": 1,
+      "reviewed_status": "已审核",
+      "unknown": "unknown",
+      "not_applicable": "not_applicable",
+      "zero": 0
+    },
+    "durationMs": 0.813
+  },
+  "comparisons": {
+    "题材语境": {
+      "queryId": "qry-b88ac50df796579906cc",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "题材语境",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "现代都市",
+          "count": 2,
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-019-02",
+            "ev-024-02",
+            "ev-024-03"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-011-01",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-156ed91ba4c1c53d",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "题材语境",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 1.172
+    },
+    "叙事驱动力": {
+      "queryId": "qry-00a87eed9431ffe66457",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "叙事驱动力",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "脱离关系",
+          "count": 1,
+          "workIds": [
+            "HL-019"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-03"
+          ]
+        },
+        {
+          "value": "脱离关系后重建生活",
+          "count": 1,
+          "workIds": [
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-024-02",
+            "ev-024-04"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-011-02",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-7d5774d8b9e698c3",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "叙事驱动力",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.831
+    },
+    "核心关系": {
+      "queryId": "qry-7addf612486317e09196",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 3,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "核心关系",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "前夫妻",
+          "count": 1,
+          "workIds": [
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-024-03"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-019",
+          "annotationId": "an-bbd88cb4b6da4fb4",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "annotationId": "an-38e409701770c381",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-006-01",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "核心关系",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.761
+    },
+    "主角目标": {
+      "queryId": "qry-47b36dec9f2caa0619ba",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 3,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "主角目标",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "重新掌握生活节奏",
+          "count": 1,
+          "workIds": [
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-024-02",
+            "ev-024-04"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-019",
+          "annotationId": "an-a7d8725b94275510",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "annotationId": "an-6802f104eda00cba",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-88399d05697f9217",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "主角目标",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.748
+    },
+    "核心冲突": {
+      "queryId": "qry-54290c844f96d8120833",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 4,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "核心冲突",
+      "reviewedOnly": true,
+      "frequencies": [],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-024",
+          "annotationId": "an-024-05",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-019",
+          "annotationId": "an-fc5ee96b01dadc03",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "annotationId": "an-643c8518c748800d",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-ff2d258585e90aa8",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "核心冲突",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.706
+    },
+    "情绪承诺": {
+      "queryId": "qry-34284bf14201c25c0329",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "情绪承诺",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "复仇释放",
+          "count": 1,
+          "workIds": [
+            "HL-019"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-03"
+          ]
+        },
+        {
+          "value": "释然 / 自我回收",
+          "count": 1,
+          "workIds": [
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-a11bfc19b0161895",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-17b0ae723f6ec4d4",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "情绪承诺",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.792
+    },
+    "包装钩子": {
+      "queryId": "qry-bba96bde1fa39a1924ae",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "包装钩子",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "结果前置",
+          "count": 2,
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-99b1826ce201ba10",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-e900cddd692b76c4",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "包装钩子",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.813
+    },
+    "承诺兑现": {
+      "queryId": "qry-1c8dc7c548bac61bdb28",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "承诺兑现",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "fulfilled",
+          "count": 2,
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-019-03",
+            "ev-024-01",
+            "ev-024-03",
+            "ev-024-04"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-011-03",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-006-02",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "承诺兑现",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 0.872
+    }
+  },
+  "report": {
+    "id": "report-b646715c04fb4d8cadda090490ff4c01",
+    "question": "标题与导语的情绪承诺，是否在开篇与结尾获得支持？",
+    "revision": 1,
+    "createdAt": "2026-09-22T03:01:21.294511+00:00",
+    "stale": false,
+    "mode": "deterministic-research",
+    "sampleCount": 4,
+    "findings": [
+      {
+        "id": "finding-1",
+        "title": "包装钩子：结果前置",
+        "observation": "在当前选定的 4 篇作品中，2 篇包含“结果前置”标签；每个作品版本按标签值去重计数。",
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-02",
+          "ev-024-01",
+          "ev-024-02"
+        ],
+        "queryIds": [
+          "qry-bba96bde1fa39a1924ae"
+        ],
+        "scope": "合成演示样本，选定 4 篇；包装钩子 有有效标签 2 篇，缺失/不符合纳入条件 2 篇；数据修订 1。",
+        "limitation": "标签频次仅描述当前样本，不能代表读者偏好或市场热度；合成样本不能作为真实业务效果。",
+        "nextStep": "补充同题材、同文本覆盖范围的本人作品；独立复核“结果前置”及相反案例，记录分歧。",
+        "criterion": "每个纳入标签均有当前版本的精确原文引用；补充样本后重新运行并报告样本数与分歧数。"
+      },
+      {
+        "id": "finding-2",
+        "title": "同口径曝光与点击的描述性汇总",
+        "observation": "站内推荐 / post_publish_d7 / 次：2 篇、2 个互不重叠的有效观测；曝光 40600、点击 7680，加权 CTR = 点击总和 ÷ 曝光总和 = 18.92%。",
+        "evidenceIds": [],
+        "queryIds": [
+          "qry-bba96bde1fa39a1924ae"
+        ],
+        "scope": "合成演示样本，选定 4 篇；包装钩子 有有效标签 2 篇，缺失/不符合纳入条件 2 篇；数据修订 1。 指标定义：impressions_clicks_v1。",
+        "limitation": "该数值来自合成演示指标，仅用于验证计算流程；不能作为真实业务改善。",
+        "nextStep": "对本人作品收集相同渠道、窗口、版本与计数单位的真实区间观测；包装实验需预先记录分流方式与主要指标。",
+        "criterion": "真实曝光与点击可追溯到原始观测；窗口不重叠；预先约定最小样本量与停止规则后再评估差异。"
+      }
+    ],
+    "trace": [
+      {
+        "index": 1,
+        "tool": "inspect_dataset",
+        "status": "completed",
+        "input": {
+          "workIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ]
+        },
+        "output": {
+          "sampleCount": 4,
+          "syntheticIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ],
+          "realIds": [],
+          "sourceSnapshot": [
+            {
+              "workId": "HL-024",
+              "versionId": "v3",
+              "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+              "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+              "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "full_text"
+            },
+            {
+              "workId": "HL-019",
+              "versionId": "v2",
+              "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+              "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+              "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "full_text"
+            },
+            {
+              "workId": "HL-011",
+              "versionId": "v1",
+              "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+              "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+              "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "opening_only"
+            },
+            {
+              "workId": "HL-006",
+              "versionId": "v1",
+              "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+              "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+              "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "metadata_only"
+            }
+          ],
+          "hasMetricObservations": true
+        },
+        "durationMs": 0.137
+      },
+      {
+        "index": 2,
+        "tool": "select_cohort",
+        "status": "completed",
+        "input": {
+          "question": "标题与导语的情绪承诺，是否在开篇与结尾获得支持？",
+          "syntheticIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ],
+          "realIds": []
+        },
+        "output": {
+          "workIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ],
+          "isSynthetic": true,
+          "selection": "用户选定样本；非随机抽样，不推断市场总体"
+        },
+        "durationMs": 0.003
+      },
+      {
+        "index": 3,
+        "tool": "aggregate_features",
+        "status": "completed",
+        "input": {
+          "workIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ],
+          "revision": 1,
+          "group": "包装钩子",
+          "reviewedOnly": true
+        },
+        "output": {
+          "queryId": "qry-bba96bde1fa39a1924ae",
+          "revision": 1,
+          "sampleCount": 4,
+          "missingCount": 2,
+          "sourceSnapshot": [
+            {
+              "workId": "HL-024",
+              "versionId": "v3",
+              "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+              "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+              "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "full_text"
+            },
+            {
+              "workId": "HL-019",
+              "versionId": "v2",
+              "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+              "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+              "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "full_text"
+            },
+            {
+              "workId": "HL-011",
+              "versionId": "v1",
+              "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+              "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+              "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "opening_only"
+            },
+            {
+              "workId": "HL-006",
+              "versionId": "v1",
+              "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+              "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+              "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "revision": 1,
+              "isSynthetic": true,
+              "scope": "metadata_only"
+            }
+          ],
+          "group": "包装钩子",
+          "reviewedOnly": true,
+          "frequencies": [
+            {
+              "value": "结果前置",
+              "count": 2,
+              "workIds": [
+                "HL-019",
+                "HL-024"
+              ],
+              "evidenceIds": [
+                "ev-019-01",
+                "ev-019-02",
+                "ev-024-01",
+                "ev-024-02"
+              ]
+            }
+          ],
+          "metricGroups": [
+            {
+              "key": "metric-1f36c6894afe3154",
+              "isSynthetic": true,
+              "definition": "impressions_clicks_v1",
+              "channel": "站内推荐",
+              "windowSpec": "post_publish_d7",
+              "countingUnit": "次",
+              "workIds": [
+                "HL-019",
+                "HL-024"
+              ],
+              "sampleCount": 2,
+              "observationCount": 2,
+              "observations": [
+                {
+                  "channel": "站内推荐",
+                  "clicks": 3720,
+                  "countingUnit": "次",
+                  "ctrReported": 20,
+                  "definition": "impressions_clicks_v1",
+                  "id": "metric-024",
+                  "impressions": 18600,
+                  "observationType": "interval",
+                  "status": "可比",
+                  "unit": "次",
+                  "versionId": "v3",
+                  "window": "发布后 7 日",
+                  "windowEnd": "2026-09-08T00:00:00Z",
+                  "windowSpec": "post_publish_d7",
+                  "windowStart": "2026-09-01T00:00:00Z",
+                  "workId": "HL-024",
+                  "isSynthetic": true
+                },
+                {
+                  "channel": "站内推荐",
+                  "clicks": 3960,
+                  "countingUnit": "次",
+                  "ctrReported": 18,
+                  "definition": "impressions_clicks_v1",
+                  "id": "metric-019",
+                  "impressions": 22000,
+                  "observationType": "interval",
+                  "status": "可比",
+                  "unit": "次",
+                  "versionId": "v2",
+                  "window": "发布后 7 日",
+                  "windowEnd": "2026-09-08T00:00:00Z",
+                  "windowSpec": "post_publish_d7",
+                  "windowStart": "2026-09-01T00:00:00Z",
+                  "workId": "HL-019",
+                  "isSynthetic": true
+                }
+              ],
+              "impressions": 40600,
+              "clicks": 7680,
+              "ctr": 0.1891625615763547
+            }
+          ],
+          "excluded": [
+            {
+              "workId": "HL-011",
+              "annotationId": "an-99b1826ce201ba10",
+              "reason": "标签未经人工审核"
+            },
+            {
+              "workId": "HL-006",
+              "annotationId": "an-e900cddd692b76c4",
+              "reason": "标签未经人工审核"
+            },
+            {
+              "workId": "HL-011",
+              "reason": "无指标观测；不以 0 填补缺失值"
+            },
+            {
+              "workId": "HL-006",
+              "reason": "无指标观测；不以 0 填补缺失值"
+            }
+          ],
+          "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+          "params": {
+            "group": "包装钩子",
+            "reviewed_only": 1,
+            "reviewed_status": "已审核",
+            "unknown": "unknown",
+            "not_applicable": "not_applicable",
+            "zero": 0
+          },
+          "durationMs": 1.086
+        },
+        "durationMs": 1.103
+      },
+      {
+        "index": 4,
+        "tool": "compare_metrics",
+        "status": "completed",
+        "input": {
+          "queryId": "qry-bba96bde1fa39a1924ae"
+        },
+        "output": {
+          "groups": [
+            {
+              "key": "metric-1f36c6894afe3154",
+              "isSynthetic": true,
+              "definition": "impressions_clicks_v1",
+              "channel": "站内推荐",
+              "windowSpec": "post_publish_d7",
+              "countingUnit": "次",
+              "workIds": [
+                "HL-019",
+                "HL-024"
+              ],
+              "sampleCount": 2,
+              "observationCount": 2,
+              "observations": [
+                {
+                  "channel": "站内推荐",
+                  "clicks": 3720,
+                  "countingUnit": "次",
+                  "ctrReported": 20,
+                  "definition": "impressions_clicks_v1",
+                  "id": "metric-024",
+                  "impressions": 18600,
+                  "observationType": "interval",
+                  "status": "可比",
+                  "unit": "次",
+                  "versionId": "v3",
+                  "window": "发布后 7 日",
+                  "windowEnd": "2026-09-08T00:00:00Z",
+                  "windowSpec": "post_publish_d7",
+                  "windowStart": "2026-09-01T00:00:00Z",
+                  "workId": "HL-024",
+                  "isSynthetic": true
+                },
+                {
+                  "channel": "站内推荐",
+                  "clicks": 3960,
+                  "countingUnit": "次",
+                  "ctrReported": 18,
+                  "definition": "impressions_clicks_v1",
+                  "id": "metric-019",
+                  "impressions": 22000,
+                  "observationType": "interval",
+                  "status": "可比",
+                  "unit": "次",
+                  "versionId": "v2",
+                  "window": "发布后 7 日",
+                  "windowEnd": "2026-09-08T00:00:00Z",
+                  "windowSpec": "post_publish_d7",
+                  "windowStart": "2026-09-01T00:00:00Z",
+                  "workId": "HL-019",
+                  "isSynthetic": true
+                }
+              ],
+              "impressions": 40600,
+              "clicks": 7680,
+              "ctr": 0.1891625615763547
+            }
+          ],
+          "excluded": [
+            {
+              "workId": "HL-011",
+              "annotationId": "an-99b1826ce201ba10",
+              "reason": "标签未经人工审核"
+            },
+            {
+              "workId": "HL-006",
+              "annotationId": "an-e900cddd692b76c4",
+              "reason": "标签未经人工审核"
+            },
+            {
+              "workId": "HL-011",
+              "reason": "无指标观测；不以 0 填补缺失值"
+            },
+            {
+              "workId": "HL-006",
+              "reason": "无指标观测；不以 0 填补缺失值"
+            }
+          ],
+          "boundary": "只按同口径分层汇总；不跨渠道/窗口/计数单位比较，也不推断内容特征导致表现。"
+        },
+        "durationMs": 0.003
+      },
+      {
+        "index": 5,
+        "tool": "get_evidence",
+        "status": "completed",
+        "input": {
+          "workIds": [
+            "HL-024",
+            "HL-019",
+            "HL-011",
+            "HL-006"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        },
+        "output": {
+          "evidence": [
+            {
+              "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+              "endChar": 12,
+              "field": "标题",
+              "id": "ev-024-01",
+              "note": "标题中的自我回收与脱离关系承诺",
+              "paragraphId": "title",
+              "quote": "把春天留给自己",
+              "reviewStatus": "已审核",
+              "startChar": 5,
+              "versionId": "v3",
+              "workId": "HL-024",
+              "title": "离婚后，我把春天留给自己"
+            },
+            {
+              "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+              "endChar": 34,
+              "field": "导语",
+              "id": "ev-024-02",
+              "note": "明确给出关系断裂后的新目标",
+              "paragraphId": "intro",
+              "quote": "签完字的那天，我在旧城开了一间花店。",
+              "reviewStatus": "已审核",
+              "startChar": 16,
+              "versionId": "v3",
+              "workId": "HL-024",
+              "title": "离婚后，我把春天留给自己"
+            },
+            {
+              "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+              "endChar": 5,
+              "field": "标题",
+              "id": "ev-019-01",
+              "paragraphId": "title",
+              "quote": "前夫求复合",
+              "reviewStatus": "已审核",
+              "startChar": 0,
+              "versionId": "v2",
+              "workId": "HL-019",
+              "title": "前夫求复合时，我在给别人办婚礼"
+            },
+            {
+              "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+              "endChar": 25,
+              "field": "开篇",
+              "id": "ev-019-02",
+              "paragraphId": "p01",
+              "quote": "他在婚礼现场叫住我时，新娘正挽着别人的手走向花门。",
+              "reviewStatus": "已审核",
+              "startChar": 0,
+              "versionId": "v2",
+              "workId": "HL-019",
+              "title": "前夫求复合时，我在给别人办婚礼"
+            }
+          ],
+          "requestedIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        },
+        "durationMs": 0.048
+      },
+      {
+        "index": 6,
+        "tool": "draft_memo",
+        "status": "completed",
+        "input": {
+          "queryId": "qry-bba96bde1fa39a1924ae",
+          "question": "标题与导语的情绪承诺，是否在开篇与结尾获得支持？",
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        },
+        "output": {
+          "findings": [
+            {
+              "id": "finding-1",
+              "title": "包装钩子：结果前置",
+              "observation": "在当前选定的 4 篇作品中，2 篇包含“结果前置”标签；每个作品版本按标签值去重计数。",
+              "evidenceIds": [
+                "ev-019-01",
+                "ev-019-02",
+                "ev-024-01",
+                "ev-024-02"
+              ],
+              "queryIds": [
+                "qry-bba96bde1fa39a1924ae"
+              ],
+              "scope": "合成演示样本，选定 4 篇；包装钩子 有有效标签 2 篇，缺失/不符合纳入条件 2 篇；数据修订 1。",
+              "limitation": "标签频次仅描述当前样本，不能代表读者偏好或市场热度；合成样本不能作为真实业务效果。",
+              "nextStep": "补充同题材、同文本覆盖范围的本人作品；独立复核“结果前置”及相反案例，记录分歧。",
+              "criterion": "每个纳入标签均有当前版本的精确原文引用；补充样本后重新运行并报告样本数与分歧数。"
+            },
+            {
+              "id": "finding-2",
+              "title": "同口径曝光与点击的描述性汇总",
+              "observation": "站内推荐 / post_publish_d7 / 次：2 篇、2 个互不重叠的有效观测；曝光 40600、点击 7680，加权 CTR = 点击总和 ÷ 曝光总和 = 18.92%。",
+              "evidenceIds": [],
+              "queryIds": [
+                "qry-bba96bde1fa39a1924ae"
+              ],
+              "scope": "合成演示样本，选定 4 篇；包装钩子 有有效标签 2 篇，缺失/不符合纳入条件 2 篇；数据修订 1。 指标定义：impressions_clicks_v1。",
+              "limitation": "该数值来自合成演示指标，仅用于验证计算流程；不能作为真实业务改善。",
+              "nextStep": "对本人作品收集相同渠道、窗口、版本与计数单位的真实区间观测；包装实验需预先记录分流方式与主要指标。",
+              "criterion": "真实曝光与点击可追溯到原始观测；窗口不重叠；预先约定最小样本量与停止规则后再评估差异。"
+            }
+          ]
+        },
+        "durationMs": 0.028
+      }
+    ],
+    "comparison": {
+      "queryId": "qry-bba96bde1fa39a1924ae",
+      "revision": 1,
+      "sampleCount": 4,
+      "missingCount": 2,
+      "sourceSnapshot": [
+        {
+          "workId": "HL-024",
+          "versionId": "v3",
+          "contentHash": "18c87ca559544ed5caf03cd33aab6f32590d1742bdac10c04c4933a1d6b1f13f",
+          "annotationHash": "5864dbc215555cd10c5b39f26f694eeee12d8d5e652550856d713610501c9ac5",
+          "observationHash": "8ce62219f82edaf400625521aaea5cb59837765c76a1963a0abd9fd0dcb67368",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-019",
+          "versionId": "v2",
+          "contentHash": "9a8855c5fcdf7daa5910f92b7fc7026c6638daddd72e9ed464d95171d3a44770",
+          "annotationHash": "7dc933a785342d3ae906254cfcfe07578cbfbad7c61f00a581da16217dfab021",
+          "observationHash": "e430f669d574b07cbf5c3aca7d08720c4eb4638a756e18c59117542fa5d93b2d",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "full_text"
+        },
+        {
+          "workId": "HL-011",
+          "versionId": "v1",
+          "contentHash": "15deabaa553592ce8a4dc4ae41aae080cdea4aa6e720aeb473d55e04f54f473c",
+          "annotationHash": "3b028ecbfa9cd171547d29c6676b13d75b8011c47d8b09347673b3040eb95a8e",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "opening_only"
+        },
+        {
+          "workId": "HL-006",
+          "versionId": "v1",
+          "contentHash": "02077d40d11087120f6414e72a48325b5a8a78b8216c9d21ae034f39d59d518f",
+          "annotationHash": "b53763499311fa374c381ea996d84ec20281489cd969bd53a24567eac65eb3ba",
+          "observationHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "revision": 1,
+          "isSynthetic": true,
+          "scope": "metadata_only"
+        }
+      ],
+      "group": "包装钩子",
+      "reviewedOnly": true,
+      "frequencies": [
+        {
+          "value": "结果前置",
+          "count": 2,
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "evidenceIds": [
+            "ev-019-01",
+            "ev-019-02",
+            "ev-024-01",
+            "ev-024-02"
+          ]
+        }
+      ],
+      "metricGroups": [
+        {
+          "key": "metric-1f36c6894afe3154",
+          "isSynthetic": true,
+          "definition": "impressions_clicks_v1",
+          "channel": "站内推荐",
+          "windowSpec": "post_publish_d7",
+          "countingUnit": "次",
+          "workIds": [
+            "HL-019",
+            "HL-024"
+          ],
+          "sampleCount": 2,
+          "observationCount": 2,
+          "observations": [
+            {
+              "channel": "站内推荐",
+              "clicks": 3720,
+              "countingUnit": "次",
+              "ctrReported": 20,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-024",
+              "impressions": 18600,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v3",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-024",
+              "isSynthetic": true
+            },
+            {
+              "channel": "站内推荐",
+              "clicks": 3960,
+              "countingUnit": "次",
+              "ctrReported": 18,
+              "definition": "impressions_clicks_v1",
+              "id": "metric-019",
+              "impressions": 22000,
+              "observationType": "interval",
+              "status": "可比",
+              "unit": "次",
+              "versionId": "v2",
+              "window": "发布后 7 日",
+              "windowEnd": "2026-09-08T00:00:00Z",
+              "windowSpec": "post_publish_d7",
+              "windowStart": "2026-09-01T00:00:00Z",
+              "workId": "HL-019",
+              "isSynthetic": true
+            }
+          ],
+          "impressions": 40600,
+          "clicks": 7680,
+          "ctr": 0.1891625615763547
+        }
+      ],
+      "excluded": [
+        {
+          "workId": "HL-011",
+          "annotationId": "an-99b1826ce201ba10",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-006",
+          "annotationId": "an-e900cddd692b76c4",
+          "reason": "标签未经人工审核"
+        },
+        {
+          "workId": "HL-011",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        },
+        {
+          "workId": "HL-006",
+          "reason": "无指标观测；不以 0 填补缺失值"
+        }
+      ],
+      "sql": "WITH selected AS (\n  SELECT DISTINCT a.work_id, a.version_id, a.value\n  FROM annotations AS a\n  JOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\n  WHERE a.group_name = :group\n    AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n    AND a.value NOT IN (:unknown, :not_applicable)\n)\nSELECT value, COUNT(*) AS work_count\nFROM selected GROUP BY value ORDER BY work_count DESC, value;\n\nSELECT DISTINCT a.value, a.work_id, ae.evidence_id\nFROM annotations AS a\nJOIN annotation_evidence AS ae ON ae.annotation_id = a.id AND ae.work_id = a.work_id\nWHERE a.group_name = :group\n  AND (:reviewed_only = 0 OR a.review_status = :reviewed_status)\n  AND a.value NOT IN (:unknown, :not_applicable)\nORDER BY a.value, a.work_id, ae.evidence_id;\n\nSELECT synthetic, definition, channel, window_spec, counting_unit,\n       COUNT(DISTINCT work_id) AS work_count, COUNT(*) AS observation_count,\n       SUM(impressions) AS impressions, SUM(clicks) AS clicks,\n       1.0 * SUM(clicks) / NULLIF(SUM(impressions), :zero) AS ctr\nFROM observations\nGROUP BY synthetic, definition, channel, window_spec, counting_unit\nORDER BY synthetic, definition, channel, window_spec, counting_unit;",
+      "params": {
+        "group": "包装钩子",
+        "reviewed_only": 1,
+        "reviewed_status": "已审核",
+        "unknown": "unknown",
+        "not_applicable": "not_applicable",
+        "zero": 0
+      },
+      "durationMs": 1.086
+    }
+  }
+}

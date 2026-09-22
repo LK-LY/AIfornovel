@@ -1,0 +1,257 @@
+{
+  "$defs": {
+    "MetricObservationInput": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
+        "versionId": {
+          "anyOf": [
+            {
+              "maxLength": 80,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Versionid"
+        },
+        "definition": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Definition",
+          "type": "string"
+        },
+        "channel": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Channel",
+          "type": "string"
+        },
+        "windowSpec": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Windowspec",
+          "type": "string"
+        },
+        "countingUnit": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Countingunit",
+          "type": "string"
+        },
+        "impressions": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Impressions"
+        },
+        "clicks": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clicks"
+        },
+        "readers": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Readers"
+        },
+        "ctrReported": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ctrreported"
+        },
+        "windowStart": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Windowstart",
+          "type": "string"
+        },
+        "windowEnd": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Windowend",
+          "type": "string"
+        },
+        "observationType": {
+          "default": "interval",
+          "enum": [
+            "interval",
+            "snapshot"
+          ],
+          "title": "Observationtype",
+          "type": "string"
+        },
+        "window": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Window",
+          "type": "string"
+        },
+        "unit": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Unit",
+          "type": "string"
+        },
+        "status": {
+          "default": "可比",
+          "enum": [
+            "可比",
+            "缺曝光",
+            "口径不一致"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "definition",
+        "channel",
+        "windowSpec",
+        "countingUnit",
+        "windowStart",
+        "windowEnd",
+        "window",
+        "unit"
+      ],
+      "title": "MetricObservationInput",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "maxLength": 500,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "intro": {
+      "default": "",
+      "maxLength": 5000,
+      "title": "Intro",
+      "type": "string"
+    },
+    "text": {
+      "default": "",
+      "title": "Text",
+      "type": "string"
+    },
+    "scope": {
+      "enum": [
+        "full_text",
+        "opening_only",
+        "metadata_only"
+      ],
+      "title": "Scope",
+      "type": "string"
+    },
+    "endingConfirmed": {
+      "title": "Endingconfirmed",
+      "type": "boolean"
+    },
+    "localConsent": {
+      "title": "Localconsent",
+      "type": "boolean"
+    },
+    "modelConsent": {
+      "title": "Modelconsent",
+      "type": "boolean"
+    },
+    "isSynthetic": {
+      "title": "Issynthetic",
+      "type": "boolean"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Author"
+    },
+    "sourceType": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Sourcetype"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/MetricObservationInput"
+      },
+      "maxItems": 100,
+      "title": "Observations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "title",
+    "scope",
+    "endingConfirmed",
+    "localConsent",
+    "modelConsent",
+    "isSynthetic"
+  ],
+  "title": "ImportItem",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,168 @@
+{
+  "$defs": {
+    "ProviderAnnotation": {
+      "additionalProperties": false,
+      "properties": {
+        "group": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Group",
+          "type": "string"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "maxLength": 100,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        },
+        "value": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Value",
+          "type": "string"
+        },
+        "rationale": {
+          "maxLength": 5000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "evidenceIds": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Evidenceids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "group",
+        "value",
+        "rationale"
+      ],
+      "title": "ProviderAnnotation",
+      "type": "object"
+    },
+    "ProviderEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "workId": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Workid",
+          "type": "string"
+        },
+        "versionId": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Versionid",
+          "type": "string"
+        },
+        "contentHash": {
+          "maxLength": 64,
+          "minLength": 64,
+          "title": "Contenthash",
+          "type": "string"
+        },
+        "field": {
+          "enum": [
+            "标题",
+            "导语",
+            "开篇",
+            "正文",
+            "结尾"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "paragraphId": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Paragraphid",
+          "type": "string"
+        },
+        "quote": {
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "startChar": {
+          "minimum": 0,
+          "title": "Startchar",
+          "type": "integer"
+        },
+        "endChar": {
+          "exclusiveMinimum": 0,
+          "title": "Endchar",
+          "type": "integer"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Note"
+        }
+      },
+      "required": [
+        "id",
+        "workId",
+        "versionId",
+        "contentHash",
+        "field",
+        "paragraphId",
+        "quote",
+        "startChar",
+        "endChar"
+      ],
+      "title": "ProviderEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "annotations": {
+      "items": {
+        "$ref": "#/$defs/ProviderAnnotation"
+      },
+      "maxItems": 8,
+      "minItems": 1,
+      "title": "Annotations",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/ProviderEvidence"
+      },
+      "maxItems": 200,
+      "title": "Evidence",
+      "type": "array"
+    }
+  },
+  "required": [
+    "annotations"
+  ],
+  "title": "ProviderExtraction",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

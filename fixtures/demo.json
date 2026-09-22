@@ -1,0 +1,539 @@
+[
+  {
+    "id": "HL-024",
+    "title": "离婚后，我把春天留给自己",
+    "author": "林栖",
+    "intro": "结婚七年，他把我当成免费的后勤。签完字的那天，我在旧城开了一间花店。",
+    "sourceType": "原创微型故事 · 预计算夹具",
+    "rightsStatus": "演示素材，可公开",
+    "isSynthetic": true,
+    "scope": "full_text",
+    "updatedAt": "2026-09-18 14:32",
+    "reviewStatus": "已审核",
+    "paragraphs": [
+      {
+        "id": "p01",
+        "label": "开篇 · 01",
+        "text": "民政局的玻璃门在身后合上，我才发现，自己竟然没有想象中那么难过。"
+      },
+      {
+        "id": "p02",
+        "label": "开篇 · 02",
+        "text": "他把车钥匙丢给我，说房贷和孩子的事下周再谈，像在安排一场无关紧要的会议。"
+      },
+      {
+        "id": "p03",
+        "label": "中段 · 12",
+        "text": "我把那间堆满纸箱的临街小铺刷成奶油白，门口挂上了“春迟花房”的木牌。"
+      },
+      {
+        "id": "p04",
+        "label": "结尾 · 28",
+        "text": "春天没有留在谁的道歉里，它留在每天开门时，第一束被我亲手修好的花里。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev-024-01",
+        "workId": "HL-024",
+        "versionId": "v3",
+        "field": "标题",
+        "paragraphId": "title",
+        "quote": "把春天留给自己",
+        "startChar": 5,
+        "endChar": 12,
+        "reviewStatus": "已审核",
+        "note": "标题中的自我回收与脱离关系承诺"
+      },
+      {
+        "id": "ev-024-02",
+        "workId": "HL-024",
+        "versionId": "v3",
+        "field": "导语",
+        "paragraphId": "intro",
+        "quote": "签完字的那天，我在旧城开了一间花店。",
+        "startChar": 16,
+        "endChar": 34,
+        "reviewStatus": "已审核",
+        "note": "明确给出关系断裂后的新目标"
+      },
+      {
+        "id": "ev-024-03",
+        "workId": "HL-024",
+        "versionId": "v3",
+        "field": "开篇",
+        "paragraphId": "p01",
+        "quote": "民政局的玻璃门在身后合上，我才发现，自己竟然没有想象中那么难过。",
+        "startChar": 0,
+        "endChar": 32,
+        "reviewStatus": "已审核",
+        "note": "开篇直接落在离婚后的情绪转折"
+      },
+      {
+        "id": "ev-024-04",
+        "workId": "HL-024",
+        "versionId": "v3",
+        "field": "结尾",
+        "paragraphId": "p04",
+        "quote": "春天没有留在谁的道歉里，它留在每天开门时，第一束被我亲手修好的花里。",
+        "startChar": 0,
+        "endChar": 34,
+        "reviewStatus": "已审核",
+        "note": "结尾将“春天”回收到自我成长，而非复合"
+      },
+      {
+        "id": "ev-024-05",
+        "workId": "HL-024",
+        "versionId": "v3",
+        "field": "开篇",
+        "paragraphId": "p02",
+        "quote": "像在安排一场无关紧要的会议。",
+        "startChar": 22,
+        "endChar": 36,
+        "reviewStatus": "需复核",
+        "note": "支持关系中的情感失衡，但不是独立冲突证据"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "an-024-01",
+        "group": "题材语境",
+        "label": "现代",
+        "value": "现代都市",
+        "rationale": "民政局、房贷、临街小铺等当代生活设施明确出现。",
+        "evidenceIds": [
+          "ev-024-02",
+          "ev-024-03"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-02",
+        "group": "叙事驱动力",
+        "label": "成长",
+        "value": "脱离关系后重建生活",
+        "rationale": "故事动力从关系结束转向女主自建花店与生活秩序。",
+        "evidenceIds": [
+          "ev-024-02",
+          "ev-024-04"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-03",
+        "group": "核心关系",
+        "label": "夫妻",
+        "value": "前夫妻",
+        "rationale": "开篇以签字离婚为起点，关系不是复合主线。",
+        "evidenceIds": [
+          "ev-024-03"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-04",
+        "group": "主角目标",
+        "label": "目标",
+        "value": "重新掌握生活节奏",
+        "rationale": "花店是一个可观察的生活重建动作，而非抽象的“变强”。",
+        "evidenceIds": [
+          "ev-024-02",
+          "ev-024-04"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-05",
+        "group": "核心冲突",
+        "label": "冲突",
+        "value": "关系中的长期忽视",
+        "rationale": "前夫以事务口吻处理房贷与孩子，触发女主脱离。",
+        "evidenceIds": [
+          "ev-024-05"
+        ],
+        "reviewStatus": "需复核"
+      },
+      {
+        "id": "an-024-06",
+        "group": "情绪承诺",
+        "label": "承诺",
+        "value": "释然 / 自我回收",
+        "rationale": "标题和导语共同承诺一种离开之后的轻盈，而非报复性胜利。",
+        "evidenceIds": [
+          "ev-024-01",
+          "ev-024-02"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-07",
+        "group": "包装钩子",
+        "label": "钩子",
+        "value": "结果前置",
+        "rationale": "标题先给出“离婚后”，导语紧接着给出花店这一新生活结果。",
+        "evidenceIds": [
+          "ev-024-01",
+          "ev-024-02"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-024-08",
+        "group": "承诺兑现",
+        "label": "兑现",
+        "value": "fulfilled",
+        "rationale": "开篇建立脱离关系，结尾以持续经营花店完成自我回收；未出现复合。",
+        "evidenceIds": [
+          "ev-024-01",
+          "ev-024-03",
+          "ev-024-04"
+        ],
+        "reviewStatus": "已审核"
+      }
+    ],
+    "metric": {
+      "id": "metric-024",
+      "versionId": "v3",
+      "window": "发布后 7 日",
+      "windowSpec": "post_publish_d7",
+      "channel": "站内推荐",
+      "definition": "impressions_clicks_v1",
+      "unit": "次",
+      "countingUnit": "次",
+      "impressions": 18600,
+      "clicks": 3720,
+      "ctrReported": 20,
+      "status": "可比"
+    },
+    "versionId": "v3",
+    "endingConfirmed": true,
+    "localConsent": true,
+    "modelConsent": false,
+    "revision": 1,
+    "observations": [
+      {
+        "id": "metric-024",
+        "versionId": "v3",
+        "window": "发布后 7 日",
+        "windowSpec": "post_publish_d7",
+        "channel": "站内推荐",
+        "definition": "impressions_clicks_v1",
+        "unit": "次",
+        "countingUnit": "次",
+        "impressions": 18600,
+        "clicks": 3720,
+        "ctrReported": 20,
+        "status": "可比",
+        "windowStart": "2026-09-01T00:00:00Z",
+        "windowEnd": "2026-09-08T00:00:00Z",
+        "observationType": "interval"
+      }
+    ]
+  },
+  {
+    "id": "HL-019",
+    "title": "前夫求复合时，我在给别人办婚礼",
+    "author": "林栖",
+    "intro": "他后悔得太晚，而我已经学会把别人的幸福布置得井井有条。",
+    "sourceType": "原创微型故事 · 预计算夹具",
+    "rightsStatus": "演示素材，可公开",
+    "isSynthetic": true,
+    "scope": "full_text",
+    "updatedAt": "2026-09-17 09:18",
+    "reviewStatus": "已审核",
+    "paragraphs": [
+      {
+        "id": "p01",
+        "label": "开篇 · 01",
+        "text": "他在婚礼现场叫住我时，新娘正挽着别人的手走向花门。"
+      },
+      {
+        "id": "p02",
+        "label": "开篇 · 02",
+        "text": "“晚晚，我们重新开始，好不好？”我低头核对宾客名单，没有抬头。"
+      },
+      {
+        "id": "p03",
+        "label": "结尾 · 24",
+        "text": "我把最后一盏灯交给新人，转身走进没有他的夜色里。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev-019-01",
+        "workId": "HL-019",
+        "versionId": "v2",
+        "field": "标题",
+        "paragraphId": "title",
+        "quote": "前夫求复合",
+        "startChar": 0,
+        "endChar": 5,
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "ev-019-02",
+        "workId": "HL-019",
+        "versionId": "v2",
+        "field": "开篇",
+        "paragraphId": "p01",
+        "quote": "他在婚礼现场叫住我时，新娘正挽着别人的手走向花门。",
+        "startChar": 0,
+        "endChar": 25,
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "ev-019-03",
+        "workId": "HL-019",
+        "versionId": "v2",
+        "field": "结尾",
+        "paragraphId": "p03",
+        "quote": "转身走进没有他的夜色里。",
+        "startChar": 12,
+        "endChar": 24,
+        "reviewStatus": "已审核"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "an-019-01",
+        "group": "题材语境",
+        "label": "现代",
+        "value": "现代都市",
+        "rationale": "婚礼策划、宾客名单等现代职业场景。",
+        "evidenceIds": [
+          "ev-019-02"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-019-02",
+        "group": "叙事驱动力",
+        "label": "成长",
+        "value": "脱离关系",
+        "rationale": "前夫求复合是触发器，女主的行动是继续工作并离开。",
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-03"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-019-03",
+        "group": "情绪承诺",
+        "label": "承诺",
+        "value": "复仇释放",
+        "rationale": "标题使用“求复合”制造回望，但结尾落在女主拒绝回头。",
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-03"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-019-04",
+        "group": "承诺兑现",
+        "label": "兑现",
+        "value": "fulfilled",
+        "rationale": "开篇即出现求复合，结尾明确离开；“复合成功”不属于文本承诺。",
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-02",
+          "ev-019-03"
+        ],
+        "reviewStatus": "已审核"
+      },
+      {
+        "id": "an-019-05",
+        "group": "包装钩子",
+        "label": "钩子",
+        "value": "结果前置",
+        "rationale": "标题先给出“求复合”这一结果状态，再把冲突放到婚礼现场。",
+        "evidenceIds": [
+          "ev-019-01",
+          "ev-019-02"
+        ],
+        "reviewStatus": "已审核"
+      }
+    ],
+    "metric": {
+      "id": "metric-019",
+      "versionId": "v2",
+      "window": "发布后 7 日",
+      "windowSpec": "post_publish_d7",
+      "channel": "站内推荐",
+      "definition": "impressions_clicks_v1",
+      "unit": "次",
+      "countingUnit": "次",
+      "impressions": 22000,
+      "clicks": 3960,
+      "ctrReported": 18,
+      "status": "可比"
+    },
+    "versionId": "v2",
+    "endingConfirmed": true,
+    "localConsent": true,
+    "modelConsent": false,
+    "revision": 1,
+    "observations": [
+      {
+        "id": "metric-019",
+        "versionId": "v2",
+        "window": "发布后 7 日",
+        "windowSpec": "post_publish_d7",
+        "channel": "站内推荐",
+        "definition": "impressions_clicks_v1",
+        "unit": "次",
+        "countingUnit": "次",
+        "impressions": 22000,
+        "clicks": 3960,
+        "ctrReported": 18,
+        "status": "可比",
+        "windowStart": "2026-09-01T00:00:00Z",
+        "windowEnd": "2026-09-08T00:00:00Z",
+        "observationType": "interval"
+      }
+    ]
+  },
+  {
+    "id": "HL-011",
+    "title": "我在旧巷开了一家修复店",
+    "author": "林栖",
+    "intro": "修复旧物，也修复那些被时间遗落的人。",
+    "sourceType": "原创微型故事 · 预计算夹具",
+    "rightsStatus": "演示素材，可公开",
+    "isSynthetic": true,
+    "scope": "opening_only",
+    "updatedAt": "2026-09-12 18:44",
+    "reviewStatus": "待审核",
+    "paragraphs": [
+      {
+        "id": "p01",
+        "label": "开篇 · 01",
+        "text": "外婆留下的钥匙只有一把，刚好能打开旧巷尽头那间落灰的铺子。"
+      },
+      {
+        "id": "p02",
+        "label": "开篇 · 02",
+        "text": "我把一只停摆的钟放在窗边，等第一个愿意把故事交给我的人。"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev-011-01",
+        "workId": "HL-011",
+        "versionId": "v1",
+        "field": "标题",
+        "paragraphId": "title",
+        "quote": "开了一家修复店",
+        "startChar": 4,
+        "endChar": 11,
+        "reviewStatus": "待审核"
+      },
+      {
+        "id": "ev-011-02",
+        "workId": "HL-011",
+        "versionId": "v1",
+        "field": "开篇",
+        "paragraphId": "p01",
+        "quote": "外婆留下的钥匙只有一把，刚好能打开旧巷尽头那间落灰的铺子。",
+        "startChar": 0,
+        "endChar": 29,
+        "reviewStatus": "待审核"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "an-011-01",
+        "group": "题材语境",
+        "label": "题材",
+        "value": "现代生活",
+        "rationale": "旧巷、店铺与旧物修复构成日常现实语境。",
+        "evidenceIds": [
+          "ev-011-01",
+          "ev-011-02"
+        ],
+        "reviewStatus": "待审核"
+      },
+      {
+        "id": "an-011-02",
+        "group": "叙事驱动力",
+        "label": "驱动力",
+        "value": "事业",
+        "rationale": "主角围绕修复店建立新的工作与关系网络。",
+        "evidenceIds": [
+          "ev-011-01"
+        ],
+        "reviewStatus": "待审核"
+      },
+      {
+        "id": "an-011-03",
+        "group": "承诺兑现",
+        "label": "兑现",
+        "value": "unknown",
+        "rationale": "仅提供开篇，结尾未提供，暂不判断兑现。",
+        "evidenceIds": [],
+        "reviewStatus": "待审核"
+      }
+    ],
+    "versionId": "v1",
+    "endingConfirmed": false,
+    "localConsent": true,
+    "modelConsent": false,
+    "revision": 1,
+    "observations": []
+  },
+  {
+    "id": "HL-006",
+    "title": "姐姐把遗产留给了我",
+    "author": "林栖",
+    "intro": "她离开以后，我才知道那份遗嘱写的是我们没有说完的话。",
+    "sourceType": "原创微型故事 · 预计算夹具",
+    "rightsStatus": "演示素材，可公开",
+    "isSynthetic": true,
+    "scope": "metadata_only",
+    "updatedAt": "2026-09-03 11:06",
+    "reviewStatus": "需复核",
+    "paragraphs": [],
+    "evidence": [
+      {
+        "id": "ev-006-01",
+        "workId": "HL-006",
+        "versionId": "v1",
+        "field": "标题",
+        "paragraphId": "title",
+        "quote": "姐姐把遗产留给了我",
+        "startChar": 0,
+        "endChar": 9,
+        "reviewStatus": "需复核"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "an-006-01",
+        "group": "核心关系",
+        "label": "关系",
+        "value": "姐妹",
+        "rationale": "标题明确关系为姐妹，但正文尚未导入。",
+        "evidenceIds": [
+          "ev-006-01"
+        ],
+        "reviewStatus": "需复核"
+      },
+      {
+        "id": "an-006-02",
+        "group": "承诺兑现",
+        "label": "兑现",
+        "value": "unknown",
+        "rationale": "只有标题与导语，不能判断开篇或结尾兑现。",
+        "evidenceIds": [],
+        "reviewStatus": "需复核"
+      }
+    ],
+    "versionId": "v1",
+    "endingConfirmed": false,
+    "localConsent": true,
+    "modelConsent": false,
+    "revision": 1,
+    "observations": []
+  }
+]

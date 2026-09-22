@@ -1,0 +1,48 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "value": {
+      "maxLength": 500,
+      "minLength": 1,
+      "title": "Value",
+      "type": "string"
+    },
+    "rationale": {
+      "maxLength": 5000,
+      "minLength": 1,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "evidenceIds": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 100,
+      "title": "Evidenceids",
+      "type": "array"
+    },
+    "reviewStatus": {
+      "enum": [
+        "已审核",
+        "待审核",
+        "需复核"
+      ],
+      "title": "Reviewstatus",
+      "type": "string"
+    },
+    "expectedRevision": {
+      "minimum": 0,
+      "title": "Expectedrevision",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "value",
+    "rationale",
+    "reviewStatus",
+    "expectedRevision"
+  ],
+  "title": "AnnotationPatch",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

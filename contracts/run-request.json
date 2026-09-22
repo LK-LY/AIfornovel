@@ -1,0 +1,36 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "workIds": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Workids",
+      "type": "array"
+    },
+    "mode": {
+      "enum": [
+        "fixture",
+        "live"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "idempotencyKey": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Idempotencykey",
+      "type": "string"
+    }
+  },
+  "required": [
+    "workIds",
+    "mode",
+    "idempotencyKey"
+  ],
+  "title": "RunRequest",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
